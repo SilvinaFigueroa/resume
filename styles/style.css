@@ -1,28 +1,42 @@
-
-.main_container{
-    margin: 2%;
+body {
+    background-color: rgba(149, 139, 139, 0.414);
 }
 
-.two-columns{
+.main_container {
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+
+}
+
+.two-columns {
     display: flex;
-        margin-left: 2%;
+    margin-left: 2%;
 }
 
 
-.block-1{
-    border: 1px solid;
+.block-1 {
     width: 100%;
 }
 
-.section-1{
+.section-1 {
     display: flex;
     width: 60%;
 
 }
 
-.section-2{
+.section-2 {
     margin-left: auto;
     margin-right: 5%;
+    margin-top: 5%;
+
+}
+
+.section-3 {
+    margin-left: 2%;
+    margin-right: 2%;
+    flex-wrap: wrap;
 
 }
 
@@ -35,18 +49,124 @@
 } */
 
 
-
-
-.block-2{
-    border: 1px solid;
+.block-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
     width: 70%;
-    
+    border-right: 1px solid black;
+
+
 }
 
-.block-3{
-    border: 1px solid;
-    
+.section-4 {
+    display: flex;
+    margin-right: auto;
+    margin-left: 2%;
+    flex-direction: column;
+    align-items: stretch;
+
 }
-img{
+
+img {
     margin-right: 2%;
+    margin-top: 3%;
+}
+
+
+.slider-container{
+    display: flex;
+}
+
+
+#slider-1a{
+    background-color: blue;
+    color:white;
+    text-align: right;
+    font-weight:600;
+    width: 90%;
+    height: 20px;
+
+}
+
+#slider-1b{
+    background-color: rgb(100, 100, 103);
+    color:white;
+    text-align: right;
+    width: 10%;
+    height: 20px;
+}
+
+.section-4 p{
+    font-weight:600;
+    margin-bottom: .05%;
+}
+
+#slider-2a{
+    background-color: rgb(246, 191, 10);
+    color:white;
+    text-align: right;
+    font-weight:600;
+    width: 80%;
+    height: 20px;
+
+}
+
+#slider-2b{
+    background-color: rgb(100, 100, 103);
+    color:white;
+    text-align: right;
+    width: 20%;
+    height: 20px;
+}
+#slider-3a{
+    background-color: rgb(12, 236, 65);
+    color:white;
+    text-align: right;
+    font-weight:600;
+    width: 93%;
+    height: 20px;
+
+}
+
+#slider-3b{
+    background-color: rgb(100, 100, 103);
+    color:white;
+    text-align: right;
+    width: 7%;
+    height: 20px;
+}
+#slider-4a{
+    background-color: rgb(245, 12, 175);
+    color:white;
+    text-align: right;
+    font-weight:600;
+    width: 80%;
+    height: 20px;
+
+}
+
+#slider-4b{
+    background-color: rgb(100, 100, 103);
+    color:white;
+    text-align: right;
+    width: 20%;
+    height: 20px;
+}
+#slider-5a{
+    background-color: rgb(11, 179, 230);
+    color:white;
+    text-align: right;
+    font-weight:600;
+    width: 70%;
+    height: 20px;
+
+}
+
+#slider-5b{
+    background-color: rgb(100, 100, 103);
+    color:white;
+    text-align: right;
+    width: 30%;
+    height: 20px;
 }
