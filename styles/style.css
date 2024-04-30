@@ -1,0 +1,52 @@
+
+.main_container{
+    margin: 2%;
+}
+
+.two-columns{
+    display: flex;
+        margin-left: 2%;
+}
+
+
+.block-1{
+    border: 1px solid;
+    width: 100%;
+}
+
+.section-1{
+    display: flex;
+    width: 60%;
+
+}
+
+.section-2{
+    margin-left: auto;
+    margin-right: 5%;
+
+}
+
+
+/* TODO : .personal-info{
+}
+
+.summary{
+
+} */
+
+
+
+
+.block-2{
+    border: 1px solid;
+    width: 70%;
+    
+}
+
+.block-3{
+    border: 1px solid;
+    
+}
+img{
+    margin-right: 2%;
+}
